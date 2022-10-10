@@ -37,7 +37,7 @@ const InputTask = () => {
   return (
     <>
      <div className="tas-input">
-      <h1 className="text-center mt-5">Task Manager-App</h1>
+      <h1 className="text-center text-3xl">Task Manager-App</h1>
       <form className="d-flex mt-5" onSubmit={SubmitForm}>
        <input type="text" value={description} onChange={e => setDescription(e.target.value)} className="form-control" />
        <select value={ priority } onChange={e => setPriority(e.target.value)} required>
