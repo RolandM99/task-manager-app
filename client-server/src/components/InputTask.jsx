@@ -46,7 +46,7 @@ const InputTask = () => {
           <option key={items.id} value={items.name}>{items.name}</option>
          ))}
        </select>
-       <button className="btn btn-success">Add</button>
+       <button id="btn" className="btn font-bold border-blue-one rounded-full">+</button>
       </form>
      </div>
     </>

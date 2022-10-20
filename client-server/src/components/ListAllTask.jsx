@@ -55,7 +55,7 @@ const ListAllTask = () => {
         <td>{task.description}</td>
         <td>{task.priority}</td>
         <td><EditTask task = {task}/></td>
-        <td><i className="fa-regular fa-trash-can" onClick={() => deleteTask(task.todo_id)}></i></td>
+        <td><i className="fa-regular fa-trash-can text-red-one" onClick={() => deleteTask(task.todo_id)}></i></td>
     </tr>
     ))}
   </tbody>

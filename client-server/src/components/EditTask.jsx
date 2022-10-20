@@ -40,7 +40,7 @@ const EditTask = ({ task }) => {
  return (
  <>
     <div>
-      <i className="fa-regular fa-pen-to-square" data-toggle="modal" data-target={`#id${task.todo_id}`}></i>
+      <i className="fa-regular fa-pen-to-square text-blue-one" data-toggle="modal" data-target={`#id${task.todo_id}`}></i>
       <div className="modal" onClick={() => setDescription(task.description)} id={`id${task.todo_id}`} >
        <div className="modal-dialog">
          <div className="modal-content">
