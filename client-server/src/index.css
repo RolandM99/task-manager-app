@@ -7,6 +7,54 @@
   border: solid #1B7878;
 }
 
+#btn {
+  margin-left: 10px;
+}
+
+#btn:hover {
+  background-color: #1B7878;
+  color: #3692ee;
+}
+
 #task-container {
-  margin-top: -400px;
+  margin: -550px 0 0 65px;
+}
+
+.confirmation-content {
+  margin: -400px auto 50px;
+  width: 320px;
+  position: relative;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 7px;
+}
+
+.p-dialogue-header-icons {
+  position: relative;
+}
+
+.popup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
+#false-one {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#img-false {
+  margin-bottom: 180px;
+}
+
+.title {
+  font-weight: bold;
+  padding-right: 130px;
+}
+
+.close-btn {
+  font-weight: bold;
 }
